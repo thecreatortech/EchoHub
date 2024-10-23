@@ -23,10 +23,10 @@ export const expandPrompt = action({
 				},
 				{
 					role: 'user',
-					content: `Expand this prompt into a detailed 200-300 words: ${shortPrompt}`,
+					content: `Expand this prompt into a detailed 500-600 words: ${shortPrompt}`,
 				},
 			],
-			max_tokens: 300, // Set max tokens for response
+			max_tokens: 600, // Set max tokens for response
 			temperature: 0.7, // Set creativity level
 		});
 
